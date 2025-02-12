@@ -1,0 +1,68 @@
+.generate-quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  max-width: 500px;
+  margin: 20px auto;
+  color: white; /* Make text color white for better contrast */
+}
+
+.generate-quote-container input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ebebeb;
+  border-radius: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease;
+  text-align: center;
+}
+
+.generate-quote-container input:focus {
+  border-color: #edebf1;
+  outline: none;
+}
+
+.generate-quote-container button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #011010;
+  background-color: #6fb1eb;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.generate-quote-container button:hover {
+  color: #f3f5f5;
+  background-color: #6b6b6b;
+}
+
+.generate-quote-container h2 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.generate-quote-container p {
+  font-size: 1.25rem;
+  color: #f6f3f3;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.generated-quote-box {
+  padding: 25px;
+  background-color: #32042e79;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(49, 35, 35, 0.1);
+  border: 1px solid #200133;
+  margin-top: 20px;
+  text-align: center;
+  max-width: 500px;
+}
