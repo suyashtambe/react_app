@@ -6,7 +6,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('C:\Users\Suyash Tambe\Desktop\react_app\public\digital-art-beautiful-mountains.jpg'); /* Path to your background image */
+  background-image: url('react_app\public\digital-art-beautiful-mountains.jpg'); 
   background-size: cover; /* Make the background cover the entire page */
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Prevent the background from repeating */
